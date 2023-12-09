@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(205.7, 33.3%, 95.9%);
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+main > #section1 {
+  margin: 50px 0;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  main > #section1 {
+    width: 80%;
+  }
+}
+main > #section1 > h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: hsl(36.5, 46.8%, 57.3%);
+  font-family: "Great Vibes", cursive;
+}
+main > #section1 > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+main > #section1 > div > input {
+  padding: 20px;
+  width: 60%;
+  margin-right: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+}
+main > #section1 > div > input:focus {
+  outline: none;
+}
+main > #section1 > div > button {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+}
+main > #section1 > #box {
+  width: 70%;
+  min-height: 350px;
+  padding: 10px 0;
+  background-color: rgb(255, 255, 255);
+  margin: 40px auto;
+  margin-bottom: 15px;
+  border-radius: 0 0 30% 30%;
+  border: 2px solid hsl(36.5, 46.8%, 57.3%);
+  overflow: hidden;
+  padding: 70px;
+  padding-top: 10px;
+}
+main > #section1 > #box > #list {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main > #section1 > #box > #list > li {
+  width: 100%;
+  margin: 10px 0;
+  word-break: break-all;
+  padding-bottom: 10px;
+  line-height: 10px;
+}
+main > #section1 > #box > #list > li > p {
+  width: 80%;
+  display: inline-flex;
+  line-height: 25px;
+}
+main > #section1 > #box > #list > li > p:focus {
+  outline: none;
+  outline-style: groove;
+  outline-color: hsl(36.5, 46.8%, 57.3%);
+}
+main > #section1 > button {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 20px 30px;
+}
+main > #section1 > p {
+  color: rgb(71, 71, 71);
+  margin: 10px 0;
+}
+
+.border {
+  border-bottom: 1px solid hsl(36.5, 46.8%, 57.3%);
+}
+
+#btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: right;
+  display: inline-block;
+  text-align: right;
+}
+@media screen and (max-width: 1400px) {
+  #btn {
+    margin: 15px auto;
+  }
+}
+#btn > i {
+  font-size: 25px;
+  color: hsl(36.5, 46.8%, 57.3%);
+  cursor: pointer;
+  transition: 0.4s;
+  display: inline-flex;
+}
+#btn > i:hover {
+  transform: rotate(360deg);
+}
+#btn > i:nth-of-type(1) {
+  margin: 25px;
+}/*# sourceMappingURL=master.css.map */
